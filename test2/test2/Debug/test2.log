@@ -1,0 +1,29 @@
+﻿生成启动时间为 2015/5/28 23:43:57。
+     1>项目“E:\vs2010document\test2\test2\test2.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\test2.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         D:\install\vs2010\VC\bin\CL.exe /c /I"H:\硕士\研一下\社交媒体大数据分析与应用\大作业\CLAPACK-3.1.1-VisualStudio\INCLUDE" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\test2.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt test2.cpp
+         test2.cpp
+     1>e:\vs2010document\test2\test2\graph.h(112): warning C4244: “+=”: 从“double”转换到“int”，可能丢失数据
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         D:\install\vs2010\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\vs2010document\test2\Debug\test2.exe" /INCREMENTAL /NOLOGO /LIBPATH:"H:\硕士\研一下\社交媒体大数据分析与应用\大作业\CLAPACK-3.1.1-VisualStudio\LIB\Win32" libf2cd.lib BLASd.lib clapackd.lib tmglibd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\test2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\vs2010document\test2\Debug\test2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\vs2010document\test2\Debug\test2.lib" /MACHINE:X86 Debug\test2.exe.embed.manifest.res
+         Debug\stdafx.obj
+         Debug\test2.obj
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\test2.exe.embed.manifest" /manifest Debug\test2.exe.intermediate.manifest
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         test2.vcxproj -> E:\vs2010document\test2\Debug\test2.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\test2.unsuccessfulbuild”。
+         正在对“Debug\test2.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\vs2010document\test2\test2\test2.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.46
