@@ -1,0 +1,46 @@
+def group_centrality(matrix):
+
+    N=len(matrix)
+    vertex=random.randint(0,N)
+    number=random.randint(10,30)
+    selectver=[]
+    remainver=[]
+    selectver.append(vertex)
+    for i in xrange(1,number):
+        flag=False
+        flag4=True
+        for j in xrange(N):
+            if matrix[vertex][j]==1:
+                if j not in selectver:
+                    selectver.append(j)
+
+            if len(selectver)==number:
+                flag=True
+                break
+        if flag==True:
+            break
+        vertex=selectver[i]
+
+    for i in xrange(N):
+        flag1=True
+        for j in xrange(len(selectver)):
+            if i==selectver[j]:
+                flag1=False
+                break
+        if flag1==True:
+            remainver.append(i)
+
+
+    sum=0
+    for i in xrange(len(remainver)):
+        t1=remainver[i]
+        flag2=False
+        for j in xrange(len(selectver)):
+            t2=selectver[j]
+            if matrix[t1][t2]==1:
+                flag2=True
+                break
+        if flag2==True:
+            sum=sum+1
+
+    return sum
